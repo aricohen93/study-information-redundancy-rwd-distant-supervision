@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/772033602.svg)](https://zenodo.org/doi/10.5281/zenodo.10817740)
+
 # Leveraging Information Redundancy of Real-World Data Through Distant Supervision
 Accepted paper at LREC-COLING 2024
 
