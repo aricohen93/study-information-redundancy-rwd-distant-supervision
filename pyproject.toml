@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "oeciml"
+version = "0.1.0"
+description = "ML for OECI"
+readme = "README.md"
+authors = ["Ariel COHEN <ariel.cohen-ext@aphp.fr>", "Alexandrine LANSON", "Thomas PETIT-JEAN"]
+exclude = [".venv", "venv", "scripts"]
+include = ["oeciml/data/*"]
+
+[tool.poetry.dependencies]
+python = "~3.7.1"
+torch = "==1.12.1" #{ url = "https://download.pytorch.org/whl/cu116/torch-1.13.1%2Bcu116-cp39-cp39-linux_x86_64.whl"}
+pytorch-lightning = "==1.8.3"
+torchmetrics = "==0.11.0"
+pre-commit = "^2.20.0"
+rich = "^12.6.0"
+pytest = "^7.2.0"
+transformers = "^4.25.0"
+pandas = "^1.3.0"
+datasets = "^2.8.0"
+edsnlp = "^0.7"
+pyspark = "2.4.3"
+ipykernel = "6.16.2"
+black = "^23.1.0"
+sentencepiece = "^0.1.97"
+openpyxl = "^3.1.2"
+confit = "^0.4.2"
+jupyter-black = "^0.3.4"
+protobuf = "^3.20"
+plotly = "^5.16.1"
+matplotlib = "3.5.3"
+nbformat = "5.8.0"
+seaborn = "^0.12.2"
+accelerate = "0.20.3"
+tensorboard = "2.11.2"
+
+
+[build-system]
+requires = ["poetry-core","pypandoc==1.7.5"]
+build-backend = "poetry.core.masonry.api"

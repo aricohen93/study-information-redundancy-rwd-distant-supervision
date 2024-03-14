@@ -1,0 +1,61 @@
+# spaCy data
+/corpus
+/training
+/packages
+/assets
+/project.lock
+
+# Env/IDE
+.venv
+.vscode
+
+# Cache dirs
+__pycache__
+.mypy_cache
+.ipynb_checkpoints
+
+# Data
+*.ipynb
+*.csv
+*.pkl
+*.jsonl
+*.html
+*.log
+*.xml
+*.ckpt
+data/
+*.pickle
+*.pt
+# Environments
+*.tar.gz
+
+# Ignore IntelliJ IDEA
+.idea/
+*.iml
+
+# Documentation
+_build/
+
+# Python
+*.egg-info
+build
+logs
+.hypothesis
+.coverage*
+
+# Models
+models/
+*.dill
+
+# build
+dist/
+scripts/dataset_generation/script.py
+scripts/dataset_generation/test.cfg
+
+# draft
+scripts/spark_submit_v2.sh
+notebooks/old
+notebooks/Emmanuelle_annotation.md
+
+# bash files
+*.sh
