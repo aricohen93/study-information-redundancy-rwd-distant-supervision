@@ -4,6 +4,8 @@
 Paper presented at LREC-COLING 2024 (oral presentation)
 
 [Leveraging Information Redundancy of Real-World Data through Distant Supervision](https://aclanthology.org/2024.lrec-main.905) (Cohen et al., LREC-COLING 2024)
+
+
 We explore the task of event extraction and classification by harnessing the power of distant supervision. We present a novel text labeling method that leverages the redundancy of temporal information in a data lake. This method enables the creation of a large programmatically annotated corpus, allowing the training of transformer models using distant supervision. This aims to reduce expert annotation time, a scarce and expensive resource. Our approach utilizes temporal redundancy between structured sources and text, enabling the design of a replicable framework applicable to diverse real-world databases and use cases. We employ this method to create multiple silver datasets to reconstruct key events in cancer patients{'} pathways, using clinical notes from a cohort of 380,000 oncological patients. By employing various noise label management techniques, we validate our end-to-end approach and compare it with a baseline classifier built on expert-annotated data. The implications of our work extend to accelerating downstream applications, such as patient recruitment for clinical trials, treatment effectiveness studies, survival analysis, and epidemiology research. While our study showcases the potential of the method, there remain avenues for further exploration, including advanced noise management techniques, semi-supervised approaches, and a deeper understanding of biases in the generated datasets and models.
 
 https://aclanthology.org/2024.lrec-main.905/
