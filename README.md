@@ -1,7 +1,17 @@
 [![DOI](https://zenodo.org/badge/772033602.svg)](https://zenodo.org/doi/10.5281/zenodo.10817740)
 
 # Leveraging Information Redundancy of Real-World Data Through Distant Supervision
-Accepted paper at LREC-COLING 2024
+Paper presented at LREC-COLING 2024 (oral presentation)
+
+[Leveraging Information Redundancy of Real-World Data through Distant Supervision](https://aclanthology.org/2024.lrec-main.905) (Cohen et al., LREC-COLING 2024)
+We explore the task of event extraction and classification by harnessing the power of distant supervision. We present a novel text labeling method that leverages the redundancy of temporal information in a data lake. This method enables the creation of a large programmatically annotated corpus, allowing the training of transformer models using distant supervision. This aims to reduce expert annotation time, a scarce and expensive resource. Our approach utilizes temporal redundancy between structured sources and text, enabling the design of a replicable framework applicable to diverse real-world databases and use cases. We employ this method to create multiple silver datasets to reconstruct key events in cancer patients{'} pathways, using clinical notes from a cohort of 380,000 oncological patients. By employing various noise label management techniques, we validate our end-to-end approach and compare it with a baseline classifier built on expert-annotated data. The implications of our work extend to accelerating downstream applications, such as patient recruitment for clinical trials, treatment effectiveness studies, survival analysis, and epidemiology research. While our study showcases the potential of the method, there remain avenues for further exploration, including advanced noise management techniques, semi-supervised approaches, and a deeper understanding of biases in the generated datasets and models.
+
+https://aclanthology.org/2024.lrec-main.905/
+
+## Cite as
+```
+Ariel Cohen, Alexandrine Lanson, Emmanuelle Kempf, and Xavier Tannier. 2024. Leveraging Information Redundancy of Real-World Data through Distant Supervision. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 10352–10364, Torino, Italia. ELRA and ICCL.
+```
 
 ## SETUP
 
